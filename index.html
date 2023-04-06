@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google-font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@200;300;400;500;600;700;800;900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <!-- fontawesome-icon -->
+    <script src="https://kit.fontawesome.com/9cebbb4b18.js" crossorigin="anonymous"></script>
+    <!-- bootstrap -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+     <!-- CSS -->
+     <link rel="stylesheet" href="style.css">
+    <title>Bipin Bhatt</title>
+</head>
+<body>
+    <!---------------------------------------------Home Section------------------------------------------->
+    <section class="home-section" id="home">
+        <!----------------Menu Bar-------------->
+        <div class="header-container container-fluid ">
+            <div class="logo-container ">
+               <p> <span class="b-letter">&nbsp;b&nbsp;</span><span>&nbsp;Bip</span><span class="orange-color">i</span><span>n</span></p>
+             </div>
+            <nav class="nav-bar">
+                <ul class="mt-2">
+                    <li class="hide-it mx-2 py-2"> <a href="#home"> Home<div class="line"></div></a></li>
+                    <li class="hide-it mx-2 py-2"> <a href="#about-me"> About <div class="line"></div></a> </li>
+                    <li class="hide-it mx-2 py-2"> <a href="#service"> Services<div class="line"></div></a></li>
+                    <li class="hide-it mx-3 py-2"> <a href="#portfolio"> Portfolio<div class="line"></div></a></li >
+                    <li class="hide-it mx-3 py-2"> <a href="#blog"> Blog<div class="line"></div></a></li>
+                    <li class="hide-it mx-3 py-2"> <a href="#contact"> Contact<div class="line"></div></a></li>
+                    <li class=""><a class="cv-btn quick-btn hide-it"> <i class="fa-solid fa-file-arrow-down donwload-icon"></i>Download CV</a></li>
+                    <li class="icon"><div  onclick="openNav()"> <i class="fa-solid fa-bars "></i></div></li>
+                </ul>
+            </nav>
+        </div>
+        <!---------------Side Menu Bar------------>
+        <div class="side-nav-bar">
+            <div class="header-side-nav-bar">
+                <div class="logo-container ">
+                    <p> <span class="b-letter">&nbsp;b&nbsp;</span><span>&nbsp;Bip</span><span class="orange-color">i</span><span>n</span></p>
+                  </div>
+                  <div class="close-icon" onclick="closeNav()">
+                    <i class="fa-solid fa-xmark"></i>
+                  </div>
+            </div>
+            <div class="side-menu">
+                <ul class="">
+                    <hr>
+                    <li class=" "> <a href="#home">Home</a></li>
+                    <hr>
+                    <li class="  "> <a href="#about-me">About</a> </li>
+                    <hr>
+                    <li class="  "> <a href="#service">Services</a></li>
+                    <hr>
+                    <li class=" "> <a href="">Portfolio</a></li >
+                    <hr>
+                    <li class=" "> <a href=""> Blog</a></li>
+                    <hr>
+                    <li class=" "> <a href="#contact"> Contact</a></li>
+                    <hr>
+                    <li class=" cv-btn " ><button class=" quick-btn "><i class="fa-solid fa-file-arrow-down donwload-icon"></i>Download CV</button> </li>
+                    
+                </ul>
+            </div>
+           </div>
+       
+           
+         <div class="hero-image-and-text  px-5">
+            <div class="container ">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-12 ">
+                        <div class=" image-container">
+                            <img src="https://themihub.com/html/morex-demo/morex/assets/images/figma.png" alt="" class="small-img figma">
+                            <div class="bipin"><img src="./images/bipin.png" alt="" class="bipin-image"></div>
+                            <img src="https://themihub.com/html/morex-demo/morex/assets/images/photoshop-logo.png" alt="" class="small-img photoshop">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-12  text-btn">
+                        <p class="orange-color heebo s-24 f-500 hello"><i>HELLO I'M</i></p>
+                        <h1 class="blue-color my-name s-60 f-700 heebo">Bipin Bhatt</h1>
+                      <p class="gray-heading-color s-32 heebo frontend">Frontend Developer</p>
+                      <p class="gray-text-color">With my knowledge and experience, I can help you navigate through the different options and find the most suitable approach for your project.</p>
+                      
+                        <div class="btn-and-social-icon container-fluid">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-12 col-12"> <button class="about-me-btn f-500 ">About Me</button> </div>
+                                <div class="social-icon display-flex col-lg-8 col-md-12 co-12"><p class="follow-me heebo">Follow Me: <a href="https://www.instagram.com/bipinbhatt08/" target=""><i class="fa-brands fa-instagram  "></i> </a><i class="fa-brands fa-github mx-1"></i><i class="fa-brands fa-linkedin-in "></i></div> 
+                                </div>
+                                
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+      
+        </section>
+
+    <!---------------------------------------------Services Section Start------------------------------------------->
+        <section id="service" class="service-section">
+            <div class="move-to-top-btn display-flex ">
+                <a href="#home"> <i class="fa-solid fa-arrow-up"></i></a>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-12">
+                        <p class="orange-color heebo s-24 f-500 ">CREATIVE SERVICE</p>
+                        <H1 class="blue-color my-name s-48 f-700 heebo">What Can I Do For You Guys</H1>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-12">
+                        <p class="gray-text-color mt-5 pt-2 decrease-margin-in-mobile" > DEMO CONTENTPromote your blog posts, case udie, and product ouncems with the the branded videoscustomers coming back for services Makes best effort.</p>
+                    </div>
+                </div>
+                <div class="row my-5">
+                    <!----------Web-developent-------->
+                    <div class="col-lg-4 col-md-6 col-12 my-3">
+                        <div class="service-card web-dev">
+                            <div class="service-icon ">
+                                <i class="fa-regular fa-file-code"></i>
+                            </div>
+                        <h4 class="service-title heebo f-700 ">
+                            Web Development
+                        </h4>
+                        <p class="gray-text-color service-description">
+                            Promote your blog posts, case udie, and product ouncems nts with the the branded videos.
+\                        </p>
+                        <a href="#" class="read-more "> &#x25A0; &nbsp;Read More</a>
+                        </div>
+                    </div>
+                    <!----------Creative Design-------->
+                    <div class="col-lg-4 col-md-6 col-12 my-3">
+                        <div class="service-card creative-design">
+                            <div class="service-icon ">
+                                <i class="fa-sharp fa-regular fa-palette"></i>
+                            </div>
+                        <h4 class="service-title heebo f-700 ">
+                            Creative Design
+                        </h4>
+                        <p class="gray-text-color service-description">
+                            Promote your blog posts, case udie, and product ouncems nts with the the branded videos.
+                        </p>
+                        <a href="#" class="read-more "> &#x25A0; &nbsp;Read More</a>
+                        </div>
+                    </div>
+                    <!----------Project Consutalncy-------->
+                    <div class="col-lg-4 col-md-6 col-12 my-3">
+                        <div class="service-card project-consultancy">
+                            <div class="service-icon ">
+                                <i class="fa-regular fa-file-code"></i>
+                            </div>
+                        <h4 class="service-title heebo f-700 ">
+                           Project Consutalncy
+                        </h4>
+                        <p class="gray-text-color service-description">
+                            Promote your blog posts, case udie, and product ouncems nts with the the branded videos.
+                        </p>
+                        <a href="#" class="read-more "> &#x25A0; &nbsp;Read More</a>
+                        </div>
+                    </div>
+                    <!----------24/7 support-------->
+                    <div class="col-lg-4 col-md-6 col-12 mt-3">
+                        <div class="service-card support">
+                            <div class="service-icon ">
+                                <i class="fa-sharp fa-solid fa-headphones"></i>
+                            </div>
+                        <h4 class="service-title heebo f-700 ">
+                           24/7 Support
+                        </h4>
+                        <p class="gray-text-color service-description">
+                            Promote your blog posts, case udie, and product ouncems nts with the the branded videos.
+                        </p>
+                        <a href="#" class="read-more "> &#x25A0; &nbsp;Read More</a>
+                        </div>
+                    </div>
+                    <!----------Owesome Idea-------->
+                    <div class="col-lg-4 col-md-6 col-12 mt-3">
+                        <div class="service-card owesome-idea">
+                            <div class="service-icon ">
+                                <i class="fa-regular fa-file-code"></i>
+                            </div>
+                        <h4 class="service-title heebo f-700 ">
+                            Owesome Idea
+                        </h4>
+                        <p class="gray-text-color service-description">
+                            Promote your blog posts, case udie, and product ouncems nts with the the branded videos.
+                        </p>
+                        <a href="#" class="read-more "> &#x25A0; &nbsp;Read More</a>
+                        </div>
+                    </div>
+                    <!----------Development Design-------->
+                    <div class="col-lg-4 col-md-6 col-12 mt-3">
+                        <div class="service-card development-design">
+                            <div class="service-icon ">
+                                <i class="fa-sharp fa-regular fa-palette"></i>
+                            </div>
+                        <h4 class="service-title heebo f-700 ">
+                           Development Design
+                        </h4>
+                        <p class="gray-text-color service-description">
+                            Promote your blog posts, case udie, and product ouncems nts with the the branded videos.
+                        </p>
+                        <a href="#" class="read-more "> &#x25A0; &nbsp;Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!---------------------------------------------About Me Section Start------------------------------------------->
+        <section class="about-section" id="about-me">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-12">
+                        <p class="orange-color heebo s-24 f-500 ">ABOUT ME</p>
+                        <H1 class="blue-color my-name s-48 f-700 heebo">I can design world for leading ui/ux</H1>
+                        <p class="orange-color heebo s-24 f-500 hello mt-5">PERSONAL INFOS:</p>
+                        <!-- information list -->
+                        <div class="container-fluid">
+                            <div class="row">
+                                <ul class="information-list gray-text-color col-lg-5 col-md-5 col-6">
+                                    <li><i class="fa-solid fa-circle-dot "></i>First Name: Bipin</li>
+                                    <li> <i class="fa-solid fa-circle-dot"></i>Address: Beldandi</li>
+                                    <li><i class="fa-solid fa-circle-dot"></i>Age: 20 Years</li>
+                                    <li><i class="fa-solid fa-circle-dot"></i>Nationality: Nepal</li>
+                                    <li><i class="fa-solid fa-circle-dot"></i>Freelance: Not Now</li>
+                                </ul>
+                                <ul class="information-list gray-text-color col-lg-7 col-md-7 col-6  ">
+                                    <li><i class="fa-solid fa-circle-dot "></i>Last Name: Bhatt</li>
+                                    <li> <i class="fa-solid fa-circle-dot"></i>Phone: +977-9822707005</li>
+                                    <li><i class="fa-solid fa-circle-dot"></i>Email: 2b4.bipin.bhatt.08</li>
+                                    <li><i class="fa-solid fa-circle-dot"></i>Religion: Hindu</li>
+                                    <li><i class="fa-solid fa-circle-dot"></i>Languages: Nepali, English, Hindi </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="cv-btn" ><button class=" quick-btn ">Hire Me</button> </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-12">
+                        <div class="about-img display-flex">
+                            <img src="./images/about-me.png" alt="">
+                        </div>
+                        <div class="experience-working text-center">
+                            <h1 class="about-section-year-of-experience heebo">
+                                20+
+                            </h1>
+                            <p class="heebo f-700 s-32">Experience Working</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--------------------------------------Experience Section Start------------------------------------------>
+        <section class="experience-section" id="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-12">
+                        <p class="orange-color heebo s-24 f-500 ">EXPERICNCE AND EDUCATION</p>
+                        <H1 class="blue-color my-name s-48 f-700 heebo">Resume of Experience and Education</H1>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-12">
+                        <p class="gray-text-color mt-5 pt-2  decrease-margin-in-mobile" > DEMO CONTENTPromote your blog posts, case udie, and product ouncems with the the branded videoscustomers coming back for services Makes best effort.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-12">
+                        <div class="experience mt-5">
+                            <div class="icon-title-btn ">
+                                <div class="exp-icon display-flex">
+                                    <i class="fa-solid fa-briefcase"></i>
+                                </div>
+                                <h3 class="exp-title">
+                                    UI/UX DESIGNER
+                                </h3>
+                                <p class="institute-indicator">
+                                    UMEDY
+                                </p>
+                            </div>
+                            <p class="gray-text-color exp-description">Promote your blog posts, case udie,and product ouncems nts with thehe branded videos.
+                            </p>
+                            <p class="read-more graduation-year"> &#x25A0; &nbsp;2021</p>
+                        </div>
+                        <div class="experience mt-5">
+                            <div class="icon-title-btn ">
+                                <div class="exp-icon display-flex">
+                                    <i class="fa-solid fa-briefcase"></i>
+                                </div>
+                                <h3 class="exp-title">
+                                    WEB DEVELOPER
+                                </h3>
+                                <p class="institute-indicator">
+                                    SOFSEE TECH
+                                </p>
+                            </div>
+                            <p class="gray-text-color exp-description">Promote your blog posts, case udie,and product ouncems nts with thehe branded videos.
+                            </p>
+                            <p class="read-more graduation-year"> &#x25A0; &nbsp;2022</p>
+                        </div>
+                        <div class="experience mt-5">
+                            <div class="icon-title-btn ">
+                                <div class="exp-icon display-flex">
+                                    <i class="fa-solid fa-briefcase"></i>
+                                </div>
+                                <h3 class="exp-title">
+                                    API DEVELOPER
+                                </h3>
+                                <p class="institute-indicator">
+                                    UMEDY
+                                </p>
+                            </div>
+                            <p class="gray-text-color exp-description">Promote your blog posts, case udie,and product ouncems nts with thehe branded videos.
+                            </p>
+                            <p class="read-more graduation-year"> &#x25A0; &nbsp;2021</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-12">
+                        <div class="experience mt-5">
+                            <div class="icon-title-btn ">
+                                <div class="exp-icon display-flex">
+                                    <i class="fa-solid fa-graduation-cap"></i>
+                                </div>
+                                <h3 class="exp-title">
+                                    SEE (10)
+                                </h3>
+                                <p class="institute-indicator">
+                                    Tribhuwan Secondary School, Belauri
+                                </p>
+                            </div>
+                            <p class="gray-text-color exp-description">Promote your blog posts, case udie,and product ouncems nts with thehe branded videos.
+                            </p>
+                            <p class="read-more graduation-year"> &#x25A0; &nbsp;2017</p>
+                        </div>
+                        <div class="experience mt-5">
+                            <div class="icon-title-btn ">
+                                <div class="exp-icon display-flex">
+                                    <i class="fa-solid fa-graduation-cap"></i>
+                                </div>
+                                <h3 class="exp-title">
+                                    ISc (+2)
+                                </h3>
+                                <p class="institute-indicator">
+                                   Little Buddha Academy, Mahendranagar
+                                </p>
+                            </div>
+                            <p class="gray-text-color exp-description">Promote your blog posts, case udie,and product ouncems nts with thehe branded videos.
+                            </p>
+                            <p class="read-more graduation-year"> &#x25A0; &nbsp;2020</p>
+                        </div>
+                        <div class="experience mt-5">
+                            <div class="icon-title-btn ">
+                                <div class="exp-icon display-flex">
+                                    <i class="fa-solid fa-graduation-cap"></i>
+                                </div>
+                                <h3 class="exp-title">
+                                   Bachelor's Degree
+                                </h3>
+                                <p class="institute-indicator">
+                                    Far-Western University
+                                </p>
+                            </div>
+                            <p class="gray-text-color exp-description">Promote your blog posts, case udie,and product ouncems nts with thehe branded videos.
+                            </p>
+                            <p class="read-more graduation-year"> &#x25A0; &nbsp;Running [2021-Till]</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!--------------------------------------Experience Section Start------------------------------------------>
+        <section class="contact-section" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-12">
+                        <p class="orange-color heebo s-24 f-500 ">CONTACT</p>
+                        <H1 class="blue-color my-name s-48 f-700 heebo">Get I contact work</H1>
+                        <p class="gray-text-color ">Promote your blog posts, case udie,and product ouncems nts with thehe branded videos.customers coming back for services Makes best effort.
+                        </p>
+                        <form action="" method="get" class="" >
+                            <input type="text" name="fullname" placeholder="Your Name" id="fullname"class="input-field"> <input type="text" name="email" placeholder="Your Email" id="email" class="input-field">
+                            <br>
+                            <textarea name="message" id="message" cols="30" rows="5" placeholder="Message"class="input-field" ></textarea> <br>
+                            <button class="quick-btn" type="submit"> Send Request</button>
+                        </form>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-12 my-4">
+                        <div class="custom-container">
+                            <div class="display-flex my-5">
+                                <div class="call-icon service-icon ">
+                                    <i class="fa-solid fa-phone"></i>
+                                </div>
+                                <div class="call-text mx-4">
+                                    <h3 class="heebo f-700 s-28" >Call Me</h3>
+                                    <p class="gray-text-color">
+                                        +977 9868886517
+                                        <br>
+                                        +977 9868886517
+                                    </p>
+                                </div>
+                            </div>
+                            <div class=" display-flex my-3">
+                                <div class="call-icon service-icon  text-center">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </div>
+                                <div class="call-text mx-4">
+                                    <h3 class="heebo f-700 s-28" >Email Me</h3>
+                                    <p class="gray-text-color">
+                                        bipinbhatt280@gmail.com
+                                        <br>
+                                        2b4.bipin.bhatt.08@gmail.com
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="display-flex my-5">
+                                <div class="call-icon service-icon " style="vertical-align: middle;">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </div>
+                                <div class="call-text mx-4">
+                                    <h3 class="heebo f-700 s-28" >Address</h3>
+                                    <p class="gray-text-color">
+                                        Siddhachauk,<br> 
+                                        Beldandi RM-1
+                                    </p>
+                                </div>
+                            </div>
+                    </div>
+                    </div>
+                </div>
+            </div> 
+        </section>
+
+
+                    
+
+  
+</body>
+<script>
+    // alert("This is not completed.")
+    function openNav(){
+            var sideNavBar =document.querySelector(".side-nav-bar")
+            sideNavBar.style.display="block"
+            sideNavBar.style.marginLeft="0px"
+        }
+    function closeNav(){
+        var sideNavBar =document.querySelector(".side-nav-bar")
+        sideNavBar.style.marginLeft="-300px"
+    }
+</script>
+</html>
